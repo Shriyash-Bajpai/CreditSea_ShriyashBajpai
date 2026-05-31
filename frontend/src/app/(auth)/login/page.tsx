@@ -87,7 +87,7 @@ export default function LoginPage() {
 
       {/* Quick-fill demo credentials */}
       <div className="mt-8 p-4 bg-slate-50 border border-slate-200 rounded-xl">
-        <p className="text-xs text-slate-500 mb-3 font-medium uppercase tracking-wide">Demo credentials (Click to fill details)</p>
+        <p className="text-xs text-slate-500 mb-3 font-medium uppercase tracking-wide">Demo credentials (Click on credentials to fill details)</p>
         <div className="grid grid-cols-2 gap-1.5">
           {[
             { role: 'Borrower', email: 'borrower@lms.com', pass: 'Borrower@123' },
