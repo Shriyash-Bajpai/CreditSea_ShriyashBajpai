@@ -53,7 +53,7 @@ export default function BorrowerDashboard() {
     <div className="max-w-4xl animate-slide-up">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="font-display text-3xl text-slate-900 mb-1">Welcome back, {user?.name?.split(' ')[0]} 👋</h1>
+        <h1 className="font-display text-3xl text-slate-900 mb-1">Welcome back, {user?.name?.split(' ')[0]}</h1>
         <p className="text-slate-500">Here's an overview of your loan journey.</p>
       </div>
 
