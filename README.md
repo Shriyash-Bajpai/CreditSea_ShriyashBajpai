@@ -1,10 +1,10 @@
-# 🏦 LoanSphere — Loan Management System
+#  LoanSphere — Loan Management System
 
 A full-stack MERN + Next.js loan management platform with a borrower portal and operations dashboard.
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                          |
 |------------|-------------------------------------|
@@ -16,7 +16,7 @@ A full-stack MERN + Next.js loan management platform with a borrower portal and 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 lms/
@@ -54,7 +54,7 @@ lms/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 
@@ -96,7 +96,7 @@ npm run dev       # Starts frontend on http://localhost:3000
 
 ---
 
-## 🔐 Login Credentials (after seeding)
+##  Login Credentials (after seeding)
 
 | Role         | Email                   | Password        |
 |--------------|-------------------------|-----------------|
@@ -107,11 +107,11 @@ npm run dev       # Starts frontend on http://localhost:3000
 | Collection   | collection@lms.com      | Collect@123     |
 | Borrower     | borrower@lms.com        | Borrower@123    |
 
-> 💡 Credentials are also available as quick-fill buttons on the login page.
+>  Credentials are also available as quick-fill buttons on the login page.
 
 ---
 
-## 🗺️ Loan Lifecycle
+##  Loan Lifecycle
 
 ```
 APPLIED → SANCTIONED → DISBURSED → CLOSED
@@ -129,7 +129,7 @@ APPLIED → SANCTIONED → DISBURSED → CLOSED
 
 ---
 
-## 🧠 Business Rule Engine (BRE)
+##  Business Rule Engine (BRE)
 
 BRE runs **server-side only** on personal details submission:
 
@@ -144,7 +144,7 @@ All rules must pass to proceed. Clear error messages are shown per failed rule.
 
 ---
 
-## 💰 Loan Math
+##  Loan Math
 
 ```
 SI = (P × R × T) / (365 × 100)
@@ -158,7 +158,7 @@ Where:
 
 ---
 
-## 🔒 RBAC (Role-Based Access Control)
+##  RBAC (Role-Based Access Control)
 
 - **Enforced on both frontend AND backend**
 - Each ops role sees only their module in the sidebar
@@ -168,7 +168,7 @@ Where:
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 ### Auth
 | Method | Endpoint           | Access  |
@@ -201,7 +201,7 @@ Where:
 
 ---
 
-## 📦 MongoDB Collections
+##  MongoDB Collections
 
 | Collection       | Purpose                              |
 |------------------|--------------------------------------|
